@@ -53,7 +53,7 @@ const defaultSettings: Settings = {
   editorToolbar: false,
   twitterEmoji: true,
   pageZoom: 100,
-  hideActivity: true,
+  hideActivity: false,
 
   isPeopleDrawer: true,
   memberSortFilterIndex: 0,
