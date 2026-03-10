@@ -51,7 +51,7 @@ const defaultSettings: Settings = {
   monochromeMode: false,
   isMarkdown: true,
   editorToolbar: false,
-  twitterEmoji: false,
+  twitterEmoji: true,
   pageZoom: 100,
   hideActivity: false,
 

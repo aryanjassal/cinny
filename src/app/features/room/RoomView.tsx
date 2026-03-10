@@ -133,7 +133,10 @@ export function RoomView({ eventId }: { eventId?: string }) {
             </>
           )}
         </div>
-        {hideActivity ? <RoomViewFollowingPlaceholder /> : <RoomViewFollowing room={room} />}
+        {/* TODO: change this to use element-like read receipts where user icon shows up on the side.
+        for a better ux though, keep it disabled by default behind an option */}
+        {/* {hideActivity ? <RoomViewFollowingPlaceholder /> : <RoomViewFollowing room={room} />} */}
+        <RoomViewFollowingPlaceholder />
       </Box>
     </Page>
   );
